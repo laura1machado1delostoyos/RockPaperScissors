@@ -12,7 +12,7 @@ The rockPaperScissors function arrives an at answer by first calling on another 
 I designed the hierarchy function to  avoid having to write a bunch of if/elif/else statment for every possible scenario between the players.
 
 The hierarchy function returns a dictionary, where:
-    - There are three keys - one for each outcome - "It's a win" / "Sadly, it's a loss" / "It's a draw" for Person 1.
+* There are three keys - one for each outcome - "It's a win" / "Sadly, it's a loss" / "It's a draw" for Person 1.
     - There is 1 value per key: given the order of the list_of_choices, ['rock', 'paper', 'scissors'], it follows that, for example, 'rock'
             - Wins over 'scissors', which is one position to the left. So, position of rock - 1 = position of scissors
             - Loses under 'paper', which is one position to the right on the list_of_choices. So, position of rock - 2 = position of paper
