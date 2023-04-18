@@ -3,7 +3,7 @@ This is a Rock-Paper-Scissors Game based on User Input
 
 I have written the following code to take user input for each of the 2 players- Person1 and Person2.
 
-Their respective 'choice' (either 'rock', 'paper', or 'scissors') will be saved in choicePerson1 and choicePerson2.
+Their respective 'choice' (either 'rock', 'paper', or 'scissors') will be saved in `choicePerson1` and `choicePerson2`.
 
 Then, the function rockPaperScissors will be called onto choicePerson1 and choicePerson2 to yield the outcome: it's a win for Person1, it's a loss for Person1, or it's a draw.
 
